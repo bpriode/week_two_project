@@ -44,7 +44,7 @@ function question4 () {
   for (var i = 0; i < data.length; i++) {
     for (var j = 0; j < data[i].materials.length; j++) {
       if (data[i].materials[j] === "wood"){
-        console.log(data[i].title);
+        console.log(data[i].title + " is made of wood. ");
       }
     }
   }
@@ -57,7 +57,7 @@ function question5 () {
   for (var i = 0; i < data.length; i++) {
     for (var j = 0; j < data[i].materials.length; j++) {
       if (data[i].materials.length >=8) {
-        console.log(data[i].title + " has " + data[i].materials.length + " materials: " + data[i].materials[j]);
+        console.log(data[i].title + " has " + data[i].materials.length + " materials: ");
     }
         for (var j = 0; j < data[i].materials.length; j++){
           if (data[i].materials.length >=8){
